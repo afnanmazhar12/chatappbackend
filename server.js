@@ -9,6 +9,7 @@ import userRoutes from "./routes/user.routes.js";
 import { app, server } from "./socket/socket.js";
 import connectToMongoDB from "./db/connectTOMongoDB.js";
 
+
 const __dirname = path.resolve(); // Fixed the capitalization
 
 dotenv.config();
